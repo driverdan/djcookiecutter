@@ -1,0 +1,50 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+Werkzeug = "==0.14.1"  # pyup: < 0.15 # https://github.com/pallets/werkzeug
+ipdb = "==0.12"  # https://github.com/gotcha/ipdb
+Sphinx = "==2.1.1"  # https://github.com/sphinx-doc/sphinx
+mypy = "==0.701"  # https://github.com/python/mypy
+pytest = "==4.6.3"  # https://github.com/pytest-dev/pytest
+pytest-sugar = "==0.9.2"  # https://github.com/Frozenball/pytest-sugar
+pytest-django = "==3.5.0"  # https://github.com/pytest-dev/pytest-django
+flake8 = "==3.7.7"  # https://github.com/PyCQA/flake8
+coverage = "==4.5.3"  # https://github.com/nedbat/coveragepy
+black = "==19.3b0"  # https://github.com/ambv/black
+pylint-django = "==2.0.9"  # https://github.com/PyCQA/pylint-django
+pylint-celery = "==0.3"  # https://github.com/PyCQA/pylint-celery
+factory-boy = "==2.12.0"  # https://github.com/FactoryBoy/factory_boy
+django-debug-toolbar = "==1.11"  # https://github.com/jazzband/django-debug-toolbar
+django-extensions = "==2.1.9"  # https://github.com/django-extensions/django-extensions
+django-coverage-plugin = "==1.6.0"  # https://github.com/nedbat/django_coverage_plugin
+
+[packages]
+pytz = "==2019.1"  # https://github.com/stub42/pytz
+python-slugify = "==3.0.2"  # https://github.com/un33k/python-slugify
+rcssmin = "==1.0.6"  # https://github.com/ndparker/rcssmin
+argon2-cffi = "==19.1.0"  # https://github.com/hynek/argon2_cffi
+whitenoise = "==4.1.2"  # https://github.com/evansd/whitenoise
+redis = "==3.2.1"  # https://github.com/antirez/redis
+celery = "==4.3.0"  # pyup: < 5.0  # https://github.com/celery/celery
+django-celery-beat = "==1.5.0"  # https://github.com/celery/django-celery-beat
+flower = "==0.9.3"  # https://github.com/mher/flower
+Django = "==2.2.2"
+django-environ = "==0.4.5"  # https://github.com/joke2k/django-environ
+django-model-utils = "==3.1.2"  # https://github.com/jazzband/django-model-utils
+django-allauth = "==0.39.1"  # https://github.com/pennersr/django-allauth
+django-crispy-forms = "==1.7.2"  # https://github.com/django-crispy-forms/django-crispy-forms
+django-compressor = "==2.3"  # https://github.com/django-compressor/django-compressor
+django-redis = "==4.10.0"  # https://github.com/niwinz/django-redis
+djangorestframework = "==3.9.4"  # https://github.com/encode/django-rest-framework
+coreapi = "==2.3.3"  # https://github.com/core-api/python-client
+gunicorn = "==19.9.0"  # https://github.com/benoitc/gunicorn
+psycopg2 = "==2.8.3"  # https://github.com/psycopg/psycopg2
+django-storages = {extras = ["boto3"],version = "==1.7.1"}  # https://github.com/jschneier/django-storages
+django-anymail = {extras = ["mailgun"],version = "==6.0.1"}  # https://github.com/anymail/django-anymail
+Pillow = "==6.0.0"  # https://github.com/python-pillow/Pillow
+
+[requires]
+python_version = "3.7"
